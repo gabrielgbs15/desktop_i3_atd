@@ -1,0 +1,45 @@
+[window]
+opacity = 0.85  # 85% opaco, ajuste conforme desejar
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
+size = 12.0
+
+[colors.primary]
+background = "#1a1b26"
+foreground = "#869dc6"
+
+[colors.cursor]
+text = "#1a1b26"
+cursor = "#869dc6"
+
+[colors.selection]
+text = "#1a1b26"
+background = "#869dc6"
+
+[colors.normal]
+black   = "#232433"
+red     = "#c678dd"
+green   = "#869dc6"
+yellow  = "#e0af68"
+blue    = "#869dc6"
+magenta = "#c678dd"
+cyan    = "#869dc6"
+white   = "#c0caf5"
+
+[colors.bright]
+black   = "#444b6a"
+red     = "#ff7a93"
+green   = "#b4f9f8"
+yellow  = "#ff9e64"
+blue    = "#7da6ff"
+magenta = "#bb9af7"
+cyan    = "#0db9d7"
+white   = "#acb0d0"
+
+[terminal.shell]
+program = "/usr/bin/zsh"
+args = ["--login"]
